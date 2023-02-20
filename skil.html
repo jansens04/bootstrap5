@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Skil Saya</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- CSS Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-light bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="index.html">SKILLSET</a>
+        </div>
+    </nav>
+
+    <div class="d-flex justify-content-center align-items-center mt-2">
+        <div class="d-sm-flex bg-dark rounded p-2">
+            <div class="card m-2" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Frontend Development</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">HTML ,CSS, BOOTSTRAP</h6>
+                    <p class="card-text">Saya suka melihat tampilan yang menarik.</p>
+                    <a href="#" class="card-link">Lihat Portfolio</a>
+                </div>
+            </div>
+
+            <div class="card m-2" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Backend Development</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">JAVA , C++ , PYTHON</h6>
+                    <p class="card-text">Saya suka menghitung dan mencari sesuatu yang sulit.</p>
+                    <a href="#" class="card-link">Lihat Portfolio</a>
+                </div>
+            </div>
+
+            <div class="card m-2" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Robotik</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">ARDUINO , PYTHON , C#</h6>
+                    <p class="card-text">Saya sangat suka melihat dan membuat robot yang dapat membantu sekitar.</p>
+                    <a href="#" class="card-link">Lihat Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center my-3">
+        <button class="btn btn-dark" onclick="goToWhatshapp()">Hubungi Saya</button>
+    </div>
+
+    <script>
+        function goToWhatshapp() {
+            window.location.href = "https://api.whatsapp.com/send?phone=82368597792&text=halo%20salam%20kenal"
+        }
+    </script>
+    <!-- Script Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
